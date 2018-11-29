@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project j</string>
+    <string name="mainButtonOne">একনজরে নির্বাচন ম্যাপ,কেন্দ্র ও যোগাযোগ</string>
+    <string name="mainButtonTwo">প্রাথী,স্থানীয় জনপ্রতিনিধি</string>
+    <string name="mainButtonThree">রিটার্নিং,নির্বাচন ও প্রিজাইডিং অফিসার</string>
+    <string name="mainButtonFour">আইন-শৃঙ্খলা বাহিনী</string>
+    <string name="mainButtonFive">ম্যাজিস্টেড</string>
+    <string name="mainButtonSix">গুগল ম্যাপ এ কেন্দ্র সমূহ</string>
+</resources>
