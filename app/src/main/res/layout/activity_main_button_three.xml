@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainButtonThreeActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/reterning_officier"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="রিটার্নিং অফিসার"
+
+        />
+    <Button
+        android:id="@+id/nirbachan_officier"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="  নির্বাচন  অফিসার"
+
+        />
+    <Button
+        android:id="@+id/prijaiding_officier"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="প্রিজাইডিং অফিসার"
+
+        />
+
+
+
+</LinearLayout>

@@ -6,4 +6,11 @@
     <string name="mainButtonFour">আইন-শৃঙ্খলা বাহিনী</string>
     <string name="mainButtonFive">ম্যাজিস্টেড</string>
     <string name="mainButtonSix">গুগল ম্যাপ এ কেন্দ্র সমূহ</string>
+
+
+    <!--
+       প্রাথী,স্থানীয় জনপ্রতিনিধির নাম
+    -->
+    <string name="ulipur1">সামিম সরকার</string>
+
 </resources>
