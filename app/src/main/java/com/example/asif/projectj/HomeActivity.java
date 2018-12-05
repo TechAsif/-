@@ -1,12 +1,18 @@
 package com.example.asif.projectj;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
 
 import org.w3c.dom.Text;
 
@@ -24,6 +30,13 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        ImageView background = findViewById(R.id.logo_png);
+        Glide.with(HomeActivity.this)
+                .load(R.drawable.logo)
+                .into(background);
+
+
 
         /*
 
@@ -45,13 +58,19 @@ public class HomeActivity extends AppCompatActivity {
                 String getPassword=userPassword.getText().toString();
                 if(getUsername.equals("admin") && getPassword.equals("12345")){
                     info.setText("");
+
                     Intent intent = new Intent(HomeActivity.this,MainActivity.class);
+                    userName.setText("");
+                    userPassword.setText("");
                     startActivity(intent);
+
                 }else{
-                    info.setText("Wrong!");
+                    info.setText("");
                 }
             }
         });
+
+
     }
 
 

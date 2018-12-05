@@ -4,13 +4,15 @@
     <string name="mainButtonTwo">প্রাথী,স্থানীয় জনপ্রতিনিধি</string>
     <string name="mainButtonThree">রিটার্নিং,নির্বাচন ও প্রিজাইডিং অফিসার</string>
     <string name="mainButtonFour">আইন-শৃঙ্খলা বাহিনী</string>
-    <string name="mainButtonFive">ম্যাজিস্টেড</string>
+    <string name="mainButtonFive">ম্যাজিস্ট্রেট</string>
     <string name="mainButtonSix">গুগল ম্যাপ এ কেন্দ্র সমূহ</string>
+    <string name="mainButtonSeven">অন্যান্য</string>
 
 
     <!--
        প্রাথী,স্থানীয় জনপ্রতিনিধির নাম
     -->
     <string name="ulipur1">সামিম সরকার</string>
+    <string name="title_activity_maps_demo">Map</string>
 
 </resources>

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //home page activity edittext for clear text
+
+
 
         //Button initialize
         mainButtonOne=findViewById(R.id.main_button_one);
@@ -76,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent=new Intent(MainActivity.this,MainButttonSixActivity.class);
+                Intent intent=new Intent(MainActivity.this,MapsActivityDemo.class);
                 startActivity(intent);
 
             }
