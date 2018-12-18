@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
+
+
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,12 +17,28 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/main_button_one"
+        android:id="@+id/main_button_one_new"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
 
         android:layout_marginTop="0dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/mainButtonOnearAgeNotun"
+
+        />
+
+    <Button
+        android:id="@+id/main_button_one"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
         android:padding="10dp"
@@ -33,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
         android:padding="10dp"
@@ -47,7 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
         android:padding="10dp"
@@ -60,7 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
         android:padding="10dp"
@@ -72,7 +92,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
         android:padding="10dp"
@@ -84,7 +104,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
         android:padding="10dp"
@@ -97,7 +117,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
         android:padding="10dp"

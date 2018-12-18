@@ -33,7 +33,7 @@ public class HomeActivity extends AppCompatActivity {
 
         ImageView background = findViewById(R.id.logo_png);
         Glide.with(HomeActivity.this)
-                .load(R.drawable.logo)
+                .load(R.drawable.bangladesh_sarker)
                 .into(background);
 
 

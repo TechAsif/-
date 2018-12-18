@@ -8,13 +8,14 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/logo"
+        android:icon="@mipmap/bangladesh_sarker"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/logo"
+        android:roundIcon="@mipmap/bangladesh_sarker"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".HomeActivity">
@@ -31,7 +32,6 @@
         <activity android:name=".MainButtonFiveActivity" />
         <activity android:name=".MainButttonSixActivity" />
         <activity android:name=".MainButtonOneLevelActivity" />
-        <activity android:name=".MainButtonThreeLevelOneActivity" />
         <activity android:name=".MainActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -47,7 +47,46 @@
 
         <activity
             android:name=".MapsActivityDemo"
-            android:label="@string/title_activity_maps_demo"></activity>
+            android:label="@string/title_activity_maps_demo" />
+        <activity android:name=".MainButtonSevenActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainButtonSixLevelOneActivity" />
+        <activity android:name=".MainButtonSixLevelTwoActivity" />
+        <activity android:name=".MainButtonSixLevelThreeActivity" />
+        <activity android:name=".MainButtonSixLevelFourActivity" />
+        <activity android:name=".MainButtonSixLevelFiveActivity" />
+        <activity android:name=".MainButtonSixLevelSixActivity" />
+        <activity android:name=".MainButtonSixLevelSevenActivity" />
+        <activity android:name=".MainButtonSixLevelEightActivity" />
+        <activity android:name=".MainButtonSixLevelNineActivity" />
+        <activity android:name=".MainButtonSixLevelTenActivity" />
+        <activity android:name=".MainButtonSixLevelElevenActivity" />
+        <activity android:name=".MainButtonSixLevelTwoelveActivity" />
+        <activity android:name=".MainButtonSixLevelTherteenActivity" />
+        <activity android:name=".MainButtonSixLevelFourTeenActivity" />
+        <activity android:name=".Fifteen" />
+        <activity android:name=".MainButtonSixLevelFifTeenActivity" />
+        <activity android:name=".MainButtonOneLevelOneActivity" />
+        <activity android:name=".MainButtonOneLevelTwoActivity" />
+        <activity android:name=".AnaloMap" />
+        <activity android:name=".UlipurUpozelaMapActivity" />
+        <activity android:name=".GunaigasUnionMapActivity" />
+        <activity android:name=".TobokpurUnionMapActivity" />
+        <activity android:name=".TethraiUnionMapActivity" />
+        <activity android:name=".DurgapurUnionMapActivity" />
+        <activity android:name=".DoldoliaUnionMapActivity" />
+        <activity android:name=".DhamsreniUnionMapActivity" />
+        <activity android:name=".DharnibariUnionMapActivity" />
+        <activity android:name=".PandulUnionMapActivity" />
+        <activity android:name=".BegomgonjUnionMapActivity" />
+        <activity android:name=".BuraburiUnionMapActivity" />
+        <activity android:name=".BojraUnionMapActivity" />
+        <activity android:name=".HataUnionMapActivity" />
+        <activity android:name=".SaheberAlgaUnionMapActivity" />
+        <activity android:name=".UlipurUpojelaUnionMapActivity" />
+        <activity android:name=".MainButtonSevenLevelSix" />
+        <activity android:name=".UpojelaVumiOfficeStafList" />
+        <activity android:name=".MainButtonSevenLevelSixLevelTwo"></activity>
     </application>
 
 </manifest>

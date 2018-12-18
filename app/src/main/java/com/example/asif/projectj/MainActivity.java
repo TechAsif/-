@@ -10,7 +10,7 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     Button mainButtonOne,mainButtonTwo,mainButtonThree,mainButtonFour,mainButtonFive,mainButtonSix;
-
+    Button mainButtonSeven;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mainButtonFour=findViewById(R.id.main_button_four);
         mainButtonFive=findViewById(R.id.main_button_five);
         mainButtonSix=findViewById(R.id.main_button_six);
+        mainButtonSeven=findViewById(R.id.main_button_seven);
 
 
 
@@ -81,7 +82,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent=new Intent(MainActivity.this,MapsActivityDemo.class);
+                Intent intent=new Intent(MainActivity.this,MainButttonSixActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        mainButtonSeven.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent=new Intent(MainActivity.this,MainButtonSevenActivity.class);
                 startActivity(intent);
 
             }

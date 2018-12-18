@@ -15,13 +15,6 @@ public class MainButtonThreeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_button_three);
 
-        mainButtonThreeLevelOne = findViewById(R.id.reterning_officier);
-        mainButtonThreeLevelOne.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainButtonThreeActivity.this,MainButtonThreeLevelOneActivity.class);
-                startActivity(intent);
-            }
-        });
+
     }
 }

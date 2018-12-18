@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Project j</string>
+    <string name="mainButtonOnearAgeNotun">নির্বাচন আচরণ বিধিমালা</string>
     <string name="mainButtonOne">একনজরে নির্বাচন ম্যাপ,কেন্দ্র ও যোগাযোগ</string>
     <string name="mainButtonTwo">প্রাথী,স্থানীয় জনপ্রতিনিধি</string>
     <string name="mainButtonThree">রিটার্নিং,নির্বাচন ও প্রিজাইডিং অফিসার</string>
@@ -8,11 +9,263 @@
     <string name="mainButtonSix">গুগল ম্যাপ এ কেন্দ্র সমূহ</string>
     <string name="mainButtonSeven">অন্যান্য</string>
 
-
     <!--
        প্রাথী,স্থানীয় জনপ্রতিনিধির নাম
     -->
     <string name="ulipur1">সামিম সরকার</string>
     <string name="title_activity_maps_demo">Map</string>
+
+    <!--
+       প্রাথী,স্থানীয় জনপ্রতিনিধির নাম সেস
+    -->
+
+
+    <!--Union Name 14 ti সাতে উপজেলা হেড কোয়াটার-->
+
+    <string name="upozelaHeadQuater"> উপজেলা হেড কোয়াটার </string>
+    <string name="ulipur_powrosova">উলিপুর পৌরসভা</string>
+    <string name="gunaigas_union">গুনাইগাছ ইউনিয়ন </string>
+    <string name="tobokpur_union">তবকপুর ইউনিয়ন </string>
+    <string name="tethrai_union">থেতরাই ইউনিয়ন </string>
+    <string name="durgapur_union">দুর্গাপুর ইউনিয়ন</string>
+    <string name="doldolia_union">দলদলিয়া ইউনিয়ন</string>
+    <string name="dhamsreni_union">ধামশ্রেণী ইউনিয়ন</string>
+    <string name="dharnibari_union">ধরণীবাড়ী ইউনিয়ন</string>
+    <string name="pandul_union">পান্ডুল ইউনিয়ন</string>
+    <string name="begomgonj_union">বেগমগঞ্জ ইউনিয়ন</string>
+    <string name="buraburi_union">বুড়াবুড়ি ইউনিয়ন</string>
+    <string name="bozra_union">বজরা ইউনিয়ন</string>
+    <string name="hatia_union">হাতিয়া ইউনিয়ন</string>
+    <string name="saheber_alga_union">সাহেবের আলগা ইউনিয়ন</string>
+
+    <!--Union Name 14 ti end-->
+
+    <!--কেন্দ্রের নাম সুরু-->
+
+    <!--উলিপুর পৌরসভা এর কেন্দ্রের নাম-->
+
+    <string name="ulipur_kendro_one">পশ্চিম নাওডাঙ্গা সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_two">নিজাই খামার সরকারি সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_three">রাজামক্ষেত্রী সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_four">নারিকেলবাড়ি সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_five">খামার নারিকেলবাড়ি সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_six">শিববাড়ি সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_seven">উলিপুর মদীনাতুলউলুম দাখিল মাদরাসা</string>
+    <string name="ulipur_kendro_eight">উলিপুর এম এস স্কুল এ- কলেজ</string>
+    <string name="ulipur_kendro_nine">উলিপুর সরকারী বালিকা উচ্চ বিদ্যালয়</string>
+    <string name="ulipur_kendro_ten">কাশিরখামার সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_eleven">গুনাইগাছ পাইলট উচ্চ বিদ্যালয় </string>
+    <string name="ulipur_kendro_twoelve">গুনাইগাছ সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_therteen">জুনাইডাঙ্গা সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="ulipur_kendro_fourteen">দাড়ারপার সরকারি প্রাথমিক বিদ্যালয়</string>
+
+    <!--উলিপুর পৌরসভা েন্দ্রের নাম সেস-->
+
+    <!--গুনাইগাছ ইউনিয়ন এর কেন্দ্রের নাম-->
+
+    <string name="gunaigas_kendro_one">গুনাইগাছ আরেফিয়া সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="gunaigas_kendro_two">কৃষ্ণমঙ্গল সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="gunaigas_kendro_three">কালুডাঙ্গা সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="gunaigas_kendro_four">নাগরাকুড়া উলুম দাখিল মাদরাসা</string>
+    <string name="gunaigas_kendro_five">কাজির চক সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="gunaigas_kendro_six">জুম্মাহাট বালিকা সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="gunaigas_kendro_seven">রাজবল্লভ সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="gunaigas_kendro_eight">কাঠাল বাড়ী সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="gunaigas_kendro_nine">রামধন আশ্রম সরকারি প্রাথমিক বিদ্যালয়</string>
+
+    <!--ুনাইগাছ ইউনিয়ন এর কেন্দ্রের নাম সেস-->
+
+
+    <!--তবকপুর ইউনিয়ন কেন্দ্রের নাম-->
+
+    <string name="tobokpur_kendro_one">কিসামত তবকপুর চৌকিদার পাড়া সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_two">নয়াগ্রাম অধ্যক্ষ সিরাজুলহক সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_three">বামনাছড়া এন ভি সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_four">বরুয়া তবকপুর সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_five">তবকপুর আবু বকর ফাজিল ডিগ্রী মাদরাসা</string>
+    <string name="tobokpur_kendro_six">তবকপুর ১নং সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_seven">তবরপুর সরদারপাড়া সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_eight">উমানন্দ উচ্চ বিদ্যাল</string>
+    <string name="tobokpur_kendro_nine">উমানন্দ ১নং সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_ten">সাদুল্যা সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_eleven">সাদুল্যা মোস্তাফারিয়া সিনিয়ার মাদরাসা</string>
+    <string name="tobokpur_kendro_twoelve">মাটিয়াল হাইস্কুল</string>
+    <string name="tobokpur_kendro_therteen">মাটিয়াল সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="tobokpur_kendro_fourteen">Missing</string>
+    <string name="tobokpur_kendro_fifteen">Missing</string>
+
+    <!--তবকপুর ইউনিয়ন কেন্দ্রের নাম সেস-->
+
+
+    <!--থেতরাই ইউনিয়ন কেন্দ্রের নাম -->
+
+    <string name="tethrai_kendro_one">গোড়াই পিয়ার দাখিল মাদ্রাসা</string>
+    <string name="tethrai_kendro_two">চড় গোড়াই সরকারি প্রাথামিক বিদ্যালয়</string>
+    <string name="tethrai_kendro_three">জুয়ান সতরা সরকারি প্রাথামিক বিদ্যালয়</string>
+    <string name="tethrai_kendro_four">খারিজা লাটশালা সরকারি প্রাথামিক বিদ্যালয়</string>
+    <string name="tethrai_kendro_five">দড়ি কিশোরপুর সরকারি প্রাথামিক বিদ্যালয়</string>
+    <string name="tethrai_kendro_six">থেতরাই সরকারি প্রাথামিক বিদ্যালয়</string>
+    <string name="tethrai_kendro_seven">কিশোরপুর সরকারি প্রাথামিক বিদ্যালয়</string>
+    <string name="tethrai_kendro_eight">হোকডাঙ্গা উচ্চ বিদ্যালয়</string>
+    <string name="tethrai_kendro_nine">সাতদরগাহ সরকারি প্রাথামিক বিদ্যালয়</string>
+    <string name="tethrai_kendro_ten">হারুনেফরা সরকারি প্রাথামিক বিদ্যালয়</string>
+
+    <!--থেতরাই ইউনিয়ন কেন্দ্রের নাম সেস-->
+
+
+    <!--দূগাপুর ইউনিয়ন কেন্দ্রের নাম-->
+
+    <string name="durgapur_kendro_one">অজুনডারা সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="durgapur_kendro_two">গোড়াই পাচপীর বহুমুখী ্উচ্চ বিদ্যালয়</string>
+    <string name="durgapur_kendro_three">পাঁচপীর ডিগ্রী কলেজ</string>
+    <string name="durgapur_kendro_four">গোড়াই সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="durgapur_kendro_five">ডালিম পঞ্চনন পলাশ তলা সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="durgapur_kendro_six">গোড়াই রঘুরায় হাই স্কুল</string>
+    <string name="durgapur_kendro_seven">যমুনা ব্যাপরী পাড়া সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="durgapur_kendro_eight">দূর্গাপুর হাই স্কুল</string>
+    <string name="durgapur_kendro_nine">গোপীনাথপুর সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="durgapur_kendro_ten">জানজাগীর সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="durgapur_kendro_eleven">কামাল খামার সিনিয়ার মাদ্রাসা</string>
+
+    <!--ূগাপুর ইউনিয়ন কেন্দ্রের নাম সেস-->
+
+
+    <!--দলদলিয়া ইউনিয়ন কেন্দ্রের নাম-->
+
+    <string name="doldolia_kendro_one">ঠুটাপাইকর হাইস্কুল</string>
+    <string name="doldolia_kendro_two">কপূরা কারিমিয়া ফাজিল মাদ্রাসা</string>
+    <string name="doldolia_kendro_three">কদমতলা হ্ইাস্কুল</string>
+    <string name="doldolia_kendro_four">কাজিপাড়া আনছ্ার ও ভিডিপি ক্লাব</string>
+    <string name="doldolia_kendro_five">উত্তর দলদলিয়া সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="doldolia_kendro_six">দলদলিয়া আর্দশ হাইস্কুল</string>
+    <string name="doldolia_kendro_seven">পাতিলাপুর সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="doldolia_kendro_eight">রাজারাম সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="doldolia_kendro_nine">নালার চর সোলেমানিয়া  সরকারি প্রাথমিক বিদ্যালয়</string>
+    <string name="doldolia_kendro_ten">খামার মাগুড়া সরকারি প্রাথমিক বিদ্যালয়</string>
+
+    <!--দলদলিয়া ইউনিয়ন কেন্দ্রের  নাম সেস-->
+
+
+    <!--ধামশ্রেণী ইউনিয়ন েন্দ্রের  নাম-->
+
+    <string name="dhamsreni_kendro_one">ধামশ্রেণী উচ্চ বিদ্যালয়</string>
+    <string name="dhamsreni_kendro_two">ধামশ্রেণী বড়াইবাড়ী সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="dhamsreni_kendro_three">ইন্দারার পাড় সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="dhamsreni_kendro_four">কাশিয়াগাড়ী সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="dhamsreni_kendro_five">পশ্চিম নাওড়া সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="dhamsreni_kendro_six">বিষ্ণুবল্লভ সরকারী প্রাথমিক বিদ্যালয়, বিষ্ণুবল্লভ</string>
+    <string name="dhamsreni_kendro_seven">ইন্দারারপাড় বালিকা মাদরাসা</string>
+    <string name="dhamsreni_kendro_eight">দড়িচর পাঁচপাড়া সরকারী প্রাথমিক বিদ্যালয়, দড়িচর পাঁচপাড়া</string>
+    <string name="dhamsreni_kendro_nine">ভদ্র পাড়া আদর্শ দড়িচর পাঁচপাড়া, ভদ্র পাড়া</string>
+
+    <!--ধামশ্রেণী ইউনিয়ন ধামশ্রেণী ইউনিয়ন েন্দ্রের  নাম সেস-->
+
+
+    <!--ধরণীবাড়ী ইউনিয়ন েন্দ্রের  নাম-->
+    <string name="dhornibari_kendro_one">মালতীবাড়ী দিঘর সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="dhornibari_kendro_two">বাকারায় সরকারী প্রাথমিক বিদ্যালয়, বাকারায় মধুপুর</string>
+    <string name="dhornibari_kendro_three">কিসামত মালতীবাড়ী সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="dhornibari_kendro_four">লতিফ রাজিয়া সিনিয়র মাদরাসা ধরনীবাড়ী</string>
+    <string name="dhornibari_kendro_five">ইসলামকি মিশন , মুন্সিবাড়ী, ধরণীবাড়ী</string>
+    <string name="dhornibari_kendro_six">মধুপুর সরকারী প্রাথমিক বিদ্যালয়, মধুপুর</string>
+    <string name="dhornibari_kendro_seven">মধুপুর বালিকা সরকারী প্রাথমিক বিদ্যালয়, মধুপুর</string>
+    <string name="dhornibari_kendro_eight">মাদারটারি সরকারী প্রাথমিক বিদ্যালয়, মাদারটারিু</string>
+    <string name="dhornibari_kendro_nine">দক্ষিণ মধুপুর কবিরাজপাড়া সরকারী প্রাথমিক বিদ্যালয়	</string>
+    <!--ধরণীবাড়ী ইউনিয়ন েন্দ্রের  নাম সেস-->
+
+
+    <!--পান্ডুল  ইউনিয়ন েন্দ্রের  নাম-->
+
+    <string name="pandul_kendro_one">উত্তর পান্ডুল টি হোসেন দাখিল মাদরাসা , পান্ডুল</string>
+    <string name="pandul_kendro_two">পান্ডুল সরকারী প্রাথমিক বিদ্যালয়, পান্ডুল বাজার</string>
+    <string name="pandul_kendro_three">পান্ডুল উচ্চ বিদ্যালয় , পান্ডুল</string>
+    <string name="pandul_kendro_four">উত্তর আপুয়ার খাতা নুরানী ও হাফিজিয়া মাদরাসা</string>
+    <string name="pandul_kendro_five">আপুয়ার খাতা সরকারী প্রাথমিক বিদ্যালয়	</string>
+    <string name="pandul_kendro_six">তনুরাম আপুয়ার খাতা সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="pandul_kendro_seven">তনুরাম সিদ্দিকিয়া দাখিল মাদরাসা তনুরাম</string>
+    <string name="pandul_kendro_eight">সিদ্ধার্থ মালতিবাড়ি সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="pandul_kendro_nine">খামার ঢেঁকিয়ারাম বটতলী সরকারী প্রাথমিক বিদ্যালয়</string>
+
+    <!--পান্ডুল  ইউনিয়ন েন্দ্রের  নাম সেস-->
+
+    <!--বেগমগঞ্জ ইউনিয়ন েন্দ্রের  নাম-->
+
+    <string name="begumgong_kendro_one">পশ্চিম বেগমগঞ্জ নূরানী তালিমুল কোরআন মাদ্রাসা</string>
+    <string name="begumgong_kendro_two">বেগমগঞ্জ সরকারী প্রাথমীক বিদ্যালয়</string>
+    <string name="begumgong_kendro_three">ক্ষুদির কুটি সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="begumgong_kendro_four">খুদির কুটি আঃ হামিদ উচ্চ বিদ্যালয়</string>
+    <string name="begumgong_kendro_five">আফতারগঞ্জ সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="begumgong_kendro_six">বালাডোবা স্বতন্ত্রএবতেদায়ী মাদ্রাসা</string>
+    <string name="begumgong_kendro_seven">বালাডোবা সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="begumgong_kendro_eight">ফকিরের চর ময়মুলা বে-সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="begumgong_kendro_nine">মশালের চর সরকারী প্রাথমিক বিদ্যালয়</string>
+
+    <!--েগমগঞ্জ ইউনিয়ন েন্দ্রের  নাম সেস-->
+
+    <!--বুড়াবুড়ি ইউনিয়ন েন্দ্রের  নাম -->
+
+
+    <string name="buraburi_kendro_one">বুড়াবুড়ি সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="buraburi_kendro_two">বুড়াবুড়ি উচ্চ বিদ্যালয়</string>
+    <string name="buraburi_kendro_three">ফকির মোহাম্মদ সুলতারিয়া দাখিল মাদ্রাসা</string>
+    <string name="buraburi_kendro_four">জোবায়দিয়া সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="buraburi_kendro_five">বকসীগঞ্জসংলগ্ন সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="buraburi_kendro_six">ফকির মোহাম্মদ সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="buraburi_kendro_seven">আঠারপাইকা জয়কালী সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="buraburi_kendro_eight">খারিজা কামাল সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="buraburi_kendro_nine">মন্ডলহাট উচ্চ বিদ্যালয়</string>
+
+    <!--বুড়াবুড়ি ইউনিয়ন েন্দ্রের  নাম সেস-->
+
+
+    <!--বজরা ইউনিয়ন কেন্দ্রের নাম-->
+
+
+    <string name="bojra_kendro_one">বজরা এল.কে আমিন স্কুল এন্ড কলেজ</string>
+    <string name="bojra_kendro_two">খামার বজরা সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="bojra_kendro_three">পূর্ব বজার সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="bojra_kendro_four">সাদুয়া দামার হাট সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="bojra_kendro_five">খামার দামারহাট ১নংসরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="bojra_kendro_six">খামার বি-সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="bojra_kendro_seven">বজরা পশ্চিম পাড়া দাখিল মাদ্রাসা</string>
+    <string name="bojra_kendro_eight">চাঁদনী বজরা সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="bojra_kendro_nine">বজরা দারুল উলম ফাজিল ডিগ্রী মাদ্রাসা</string>
+    <string name="bojra_kendro_ten">চর বজরা সরকারী প্রাথমিক বিদ্যালয়</string>
+
+
+    <!--বজরা ইউনিয়ন কেন্দ্রের নাম সেস-->
+
+
+    <!--হাতিয়া ইউনিয়ন কেন্দ্রের নাম-->
+
+    <string name="hatia_kendro_one">নতুন অনন্তপুর উচ্চ বিদ্যালয়</string>
+    <string name="hatia_kendro_two">দিগলহাইল্যা সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="hatia_kendro_three">রামরামপুর সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="hatia_kendro_four">অনন্তপুর সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="hatia_kendro_five">বাগুয়া অনন্তপুর উচ্চ বিদ্যালয়</string>
+    <string name="hatia_kendro_six">বাগুয়া অনন্তপুর সরকারী প্রাথমিক বিদ্যালয় </string>
+    <string name="hatia_kendro_seven">হাতিয়া ভবেশ উখলামাগঞ্জ সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="hatia_kendro_eight">হাতিয়া সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="hatia_kendro_nine">নয়াদাড়া সরকারী প্রাথমিক বিদ্যালয়</string>
+
+    <!--হাতিয়া ইউনিয়ন কেন্দ্রের নাম সেস-->
+
+
+    <!--সাহেবের আলগা ইউনিয়ন কেন্দ্রের নাম-->
+
+    <string name="saheber_alga_kendro_one">দই খাওয়ার চর সরকারী প্রাথমিক বিদ্যালয় </string>
+    <string name="saheber_alga_kendro_two">মাঝের আলগা জয়নাল আবেদীন এবতেদায়ী মাদ্রাসা</string>
+    <string name="saheber_alga_kendro_three">কাঁচাবাচা জাহাজের আলগা সরকারী প্রাথমিক বিদ্যালয়	</string>
+    <string name="saheber_alga_kendro_four">সাহেবের আলগা সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="saheber_alga_kendro_five">গেন্দার আলগা উচ্চ বিদ্যালয়</string>
+    <string name="saheber_alga_kendro_six">নামাজের চর সরকারী প্রাথমিক বিদ্যালয়</string>
+    <string name="saheber_alga_kendro_seven">চর বাগুয়া উত্তর পাড়া এবতেদায়ী মাদ্রাসা ও সংলগ্ন ফেন্ডশীপ প্রাথমিক বিদ্যালয়</string>
+    <string name="saheber_alga_kendro_eight">সুখের বাতির চর সরকারী প্রাথমিক বিদ্যালয় </string>
+    <string name="saheber_alga_kendro_nine">চর দূর্গাপুর সরকারী প্রাথমিক বিদ্যালয়</string>
+
+    <!--সাহেবের আলগা ইউনিয়ন কেন্দ্রের নাম সেস-->
+
+    <!--কেন্দ্রের নাম সেস-->
+
 
 </resources>

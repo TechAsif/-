@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c90a1a"
+    tools:context=".UpojelaVumiOfficeStafList">
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="এ,টি,এম আজিজুর রহমান (প্রধান সহকারী)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭৯৭-৬৩৫৯২০"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/prodhanSohokariPhone"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ মোফাজ্জল হোসেন(ক্রেঃ চেঃ কাম সাঃ সহকারী)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭১৬-৯৫৬০১০"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/crocekam_sohokari"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="এস, এম হামিদুর রহমান(নাজির কাম ক্যাশিয়ার(প্রেষনে জেঃপ্রঃর্কাঃ))"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭১৩-৭৩৫২০০"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/najim_kam_kesiar"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ আব্দুল্লা আল মামুন(সার্ভেয়ার)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭৫১-৪৬২১২৯"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/sarvear"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ মার্জান হোসেন তালুকদার(সার্টিফিকেট পেশকার)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭৩৭-১৩১৩৪৫"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/sartificat_peshkar"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ মঞ্জুরুল ইসলাম(সার্টিফিকেট সহকারী)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭২১-৭৬৪৬৩২"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/sartificat_sohokari"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ এনামুল হক(প্রসেস সার্ভার)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৯২৮-৬৫৯২৯০"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/process_server"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ নুর ইসলাম নুরু(প্রসেস সার্ভার)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭০৫-৯৩৫৮৩৮"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/process_server2"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ মামুন বকসী(অফিস সহায়ক)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৯৮৪-৮৪৫৫৯৯"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/office_sohayok"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ হালিম মিয়া(অফিস সহায়ক)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭৫০-৮৬৬৪৪৪"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/office_sohayok2"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ নুরন্নবী(চেইনম্যান)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭২২-২৮০১৩৬"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/Chain_man"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="মোঃ আমিনুল ইসলাম(চেইনম্যান)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭২২-৫২৯৬৩৮"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/Chain_man2"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:text="আহাম্মদ আলী(নৈশপ্রহরী)"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"/>
+
+        <TextView
+            android:background="#fff"
+            android:layout_width="0dp"
+            android:layout_weight=".4"
+            android:text="০১৭৯৭-৬৩৫৯২০"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="#fff"
+            android:id="@+id/noiso_prohori"
+            android:layout_width="0dp"
+            android:layout_weight=".1"
+            android:src="@drawable/ic_call_black_24dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
