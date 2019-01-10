@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MotamotPoramorsheList">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/eono"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="মোঃ আব্দুল কাদের (উপজেলা নির্বাহী অফিসার, উলিপুর, কুড়িগ্রাম)"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"
+            android:layout_weight=".5"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:text="টেলিফোন"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="0582956008"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/eono_telephone_call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="#fff"
+            android:src="@drawable/ic_call_black_24dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"
+            android:layout_weight=".5"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="মোবাইল"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="01774434257"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/eono_mobile_call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="#fff"
+            android:src="@drawable/ic_call_black_24dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"
+            android:layout_weight=".5"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="ই-মেইল"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="unoulipur@mopa.gov.bd"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -19,6 +19,7 @@
     tools:context=".MainButtonSixLevelTwoActivity">
 
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_one"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -33,6 +34,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_two"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -47,6 +49,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_three"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -62,6 +65,7 @@
         />
 
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_four"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -76,6 +80,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_five"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -90,6 +95,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_six"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -104,6 +110,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_seven"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -118,6 +125,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_eight"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -133,6 +141,7 @@
         />
 
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_nine"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -148,6 +157,7 @@
         />
 
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_ten"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -163,6 +173,7 @@
         />
 
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_eleven"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -177,6 +188,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_twoelve"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -191,6 +203,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_therteen"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -205,6 +218,7 @@
 
         />
     <Button
+        android:id="@+id/ulipur_powrosova_kendro_fourteen"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"

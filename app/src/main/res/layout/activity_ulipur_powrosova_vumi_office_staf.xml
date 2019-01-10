@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".UlipurPowrosovaVumiOfficeStaf">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c90a1a"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".5"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ মাসুদ রানা সরকার (ইউঃভূঃসহঃ কর্মকর্তা)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৪৩-০৬৮৪৪২"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/ulipur_powrosova_vumi_office_u_vu_soho_kormokorta"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".5"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ শাহ আলম খন্দকার(ইউঃভুঃ উপঃসহঃকর্মকর্তা"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭২৯-৩৪৫৭১১"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/ulipur_powrosova_vumi_office_u_vu_upo_soho_kormokorta"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".5"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ রাকিবুল ইসলাম(অফিস সহায়ক)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৯৮৫-৬৬৭৯৪০"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/ulipur_powrosova_vumi_office_office_sohayok_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".5"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোছাঃ হালিমা বেগম (অফিস সহায়ক)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".4"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৮০-৭৭১৯৪৭"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/ulipur_powrosova_vumi_office_office_sohayok_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

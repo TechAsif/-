@@ -17,6 +17,7 @@
     tools:context=".MainButtonSevenActivity">
 
     <Button
+        android:id="@+id/control_room"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -31,6 +32,35 @@
 
         />
     <Button
+        android:id="@+id/red_crecent"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="রেড ক্রিসেন্ট"
+
+        />
+    <Button
+        android:id="@+id/upojela_sashto_poribar_prikolpona_kormokorta"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="উপজেলা স্বাস্থ্য ও পরিবার পরিকল্পনা কর্মকর্তা"
+
+        />
+    <Button
+        android:id="@+id/hospital"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -45,6 +75,7 @@
 
         />
     <Button
+        android:id="@+id/fire_services_button"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -59,6 +90,7 @@
 
         />
     <Button
+        android:id="@+id/thana_button"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -73,6 +105,7 @@
 
         />
     <Button
+        android:id="@+id/polli_bidduth_button"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -97,7 +130,7 @@
         android:padding="10dp"
         android:textColor="#fff"
         android:textSize="18sp"
-        android:text="কভূমি অফিসের স্টাফ "
+        android:text="ভূমি অফিসের স্টাফ "
 
         />
 

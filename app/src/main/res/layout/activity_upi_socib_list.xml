@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".UpiSocibList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c90a1a"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ হারুন-অর রশিদ সরকার (দূর্গাপুর)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৩৯৩৭৬৬৭"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/durgapur_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ আনিছুর রহমান (বেগমগঞ্জ)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৪৩৫৮৪৬১৪"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/begomgonj_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ হুমায়ুন কবীর (হাতিয়া)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১০০৫৩৪৫৪"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/hatia_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ নূর ইসলাম (সাঃ আলগা)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৬৫৪৬৪৭৪"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/saheberalga_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ  নূর নবী সরকার (গুনাইগাছ)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭২২৪০২৮৩৬"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/gunaigas_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ সাদেকুল ইসলাম (বজরা)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭২৯৭৩৪৭৩৯"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/bojra_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ এ টি এম জাফরুল হাসান (তবকপুর)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৯০২৭৬৩২"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/tobokpur_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ মোস্তাফিজুর রহমান (ধামশ্রেণী)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৯৩৩২০৯০৯৯"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/dhamsreni_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="বিষ্ণু চন্দ্র সরকার (ধরনীবাড়ি)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৯৮৪২৮০০০৮"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/dharnibari_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ মোজাম্মেল হক (পান্ডুল)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭২১৯২২৪০৯"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pandul_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ সাহিদুর রহমান (দলদলিয়া)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৯১৩০৮২২৭৫"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pandul_two_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ গোলাম মোস্তফা (থেতরাই)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৮৬৩২০৮২৪৩"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/tethrai_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ কাওছার আলী (বুড়াবুড়ি)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৪৫৬৫৬৪১"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/buraburi_upi_socib"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

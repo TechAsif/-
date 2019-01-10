@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center_vertical"
+    tools:context=".NodiParaParGhatButton">
+
+    <Button
+        android:id="@+id/nodiparapar_ghat_button_one"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="সাহেবের আলগা বাগুয়া/ পালের ঘাট, হাতিয়া"
+
+        />
+
+    <Button
+        android:id="@+id/nodiparapar_ghat_button_two"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="বেগমগঞ্জ বুড়াবুড়ি ঘাট"
+
+        />
+
+    <Button
+        android:id="@+id/nodiparapar_ghat_button_three"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="থেতরাই ও বজরা হোকডাঙ্গা ঘাট"
+
+        />
+
+</LinearLayout>

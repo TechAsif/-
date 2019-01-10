@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".BgbList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c90a1a"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="বিজিবি ইন-চার্জ (পৌরসভা, ধরনীবাড়ী, হাতিয়া, সাহেবের  আলগা)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৬৯৬০২৩২৪"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/bgb_one_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="সুবেদার মোঃ আলিউর রহমান (বজরা, তবকপুর, ধামশ্রেণী)
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭২৫৪৪৪২৯০"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/bgb_two_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="নাঃ সুবেঃ আসরাফুর রহমান (দলদলিয়া, থেতরাই, গুনাইগাছ)
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৪১৬৬২৮০৭"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/bgb_three_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="নাঃ সুবেঃ মোঃ রবিউল ইসলাম (দূর্গাপুর, বুড়াবুড়ি, পান্ডুল, বেগমগঞ্জ)
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৯৪৯৬৭৯২"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/bgb_four_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

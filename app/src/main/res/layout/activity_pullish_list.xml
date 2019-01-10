@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".PullishList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c90a1a"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="পুলিশ সুপার, কুড়িগ্রাম"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৩৩৭৩৯২০"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_call_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="সার্কেল এসপি, উলিপুর"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৩৩৭৩৯২৪"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_call_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="অফিসার ইনচার্জ ,উলিপুর থানা । (পুলিশ)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৩৩৭৩৯৩১"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_call"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <!--PUllish
+        call finished-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:text="স্টাইকিং ফোর্স"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="স্টাইকিং ফোর্স ১ (পৌরসভা, ধরনীবাড়ী, হাতিয়া, সাহেবের  আলগা)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৩৩৭৩৯৩১"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/staiking_officier_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="স্টাইকিং ফোর্স ২ (দূর্গাপুর, বুড়াবুড়ি, পান্ডুল, বেগমগঞ্জ)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭০৬৪৯৯৪৯৯"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/staiking_officier_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="স্টাইকিং ফোর্স ৩ (দলদলিয়া, থেতরাই, গুনাইগাছ)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৩৩৭৩৯৩৮"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/staiking_officier_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="স্টাইকিং ফোর্স ৪ (বজরা, তবকপুর, ধামশ্রেণী)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৮১৪২৭২৩০৫"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/staiking_officier_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <!--Staiking officier finished
+
+        -->
+
+        <TextView
+            android:id="@+id/pullish_mobile_team"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:text="পুলিশ মোবাইল টিম"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ১ (কেন্দ্র ১,২,৩,৪,৫,৬,৭)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৪৫৬৯৪৬২"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ২ (কেন্দ্র ৮,৯,১০,১১,১২,১৩,১৪)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৬২০৬৬৯০"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ৩ (কেন্দ্র ১৮,১৬,১৫,১৭,২২,২০,১৯,২১,২৩)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৯৫৪০৪৩১"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ৪ (কেন্দ্র ২৪,২৫,২৬,৩১,৩২,৩৩,৩৪,৩৫,৩৬)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৭৩৪১৭৩৫"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_four"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ৫ (কেন্দ্র ৪০,৩৯,৩৮,৩৭,৪১,৪২,৪৪,৪৩,৪৬,৪৭,৪৫)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৩৮২৪৪৭৫৫"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_five"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ৬ (কেন্দ্র ৪৯,৫৫,৫৭,৫৬,৫৮,৫৪,৫২,৫০,৪৮,৫১,৫৩)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৩১৭২৭৮৬৫"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_six"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ৭ (কেন্দ্র ৫৯,৬১,৬০,৬৪,৬৩,৬২,৬৭,৬৮,৬৬,৬৫)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৭০৮৮২৮৪"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_seven"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ৮ (কেন্দ্র ৭০,৭২,৬৯,৭১,৭৬,৭৭,৭৫,৭১,৭৩)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৯৭৮৯০৩২১"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_eight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ৯ (কেন্দ্র ৭৮,৭৯,৮০,৮১,৮২,৮৩,৮৪,৮৫,৮৬)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৬৬৯৬৯৯৭"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_nine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ১০ (কেন্দ্র ৮৭,৮৮,৮৯,৯০,৯১,৯২,৯৩,৯৪,৯৫)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৯০২৯১৪৪"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_ten"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ১১ (কেন্দ্র ৯৬,৯৭,৯৮,৯৯,১০০,১০১,১০২,১০৩,১০৪)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১০০৭৭৪৬৬"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_eleven"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ১২ (কেন্দ্র ১১২,১০৫,১০৬,১০৭,১০৮,১১৩,১১১,১০৯,১১০)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৬৩৬৪০৭৮"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_twoelve"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ১৩ (কেন্দ্র ১১৪,১২০,১১৭,১২২,১২১,১১৫,১১৬)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৮৬৪৭০৬৪৫"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_therteen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ১৪ (কেন্দ্র ১২৪,১২৫,১২৬,১২৭,১২৮,১২৯,১৩০,১৩১,১৩২)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৯৫৮৩৮৯২"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_fourteen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোবাইল টিম ১৫ (কেন্দ্র ১৪১,১৪০,১৩৯,১৩৫,১৩৮,১৩৭,১৩৬,১৩৮,১৩৩)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৯৯৯৭৩৪৩২০"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/pullish_mobile_team_fifteen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

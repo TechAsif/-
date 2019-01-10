@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".PrarthiList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c90a1a"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="সাঈদ আখতার আমীন (বাংলাদেশের সমাজতান্ত্রিক দল- বাসদ) (মই)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৭-৫২৪৩২৯"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/moi_marka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="তাসভীর উল ইসলাম (বাংলাদেশ জাতীয়তাবাদী দল-বিএনপি) (ধানের শীষ)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১১-৫২৬৪২৬"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/dhanersish_marka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ হাবিবুর রহমান (কৃষক শ্রমিক জনতালীগ) (গামছা)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৪১-০৭৬২২৪"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/gamsa_marka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ মনজুরুল হক (জাতীয় পার্র্টি-জেপি) (বাইসাইকেল)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৯১০-৭৫৭০৩০"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/bicycle_marka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="ডাঃ মোঃ আককাছ আলী সরকার (জাতীয় পার্টি) (লাঙ্গল)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭৮৫-৬৬৭৭৭৭"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/langgol_marka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="এম এ মতিন (বাংলাদেশ আওয়ামী লীগ) (নৌকা)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১৫-১৫৭৫৩২"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/nowka_marka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="মোঃ দেলোয়ার হোসেন (বাংলাদেশ কমিউনিস্ট পার্টি) (কাস্তে)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭২৪-৫১২৪৯২"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/kaste_marka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="6sp"
+                android:layout_weight=".550"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="গোলাম মোস্তফা মিয়া (ইসলামি আনন্দোলন বাংলাদেশ) (হাতপাখা)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".350"
+                android:background="#fff"
+                android:gravity="center_vertical"
+                android:text="০১৭১২-০২৯৫৫৭"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/hatpakha_marka"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="#fff"
+                android:src="@drawable/ic_call_black_24dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

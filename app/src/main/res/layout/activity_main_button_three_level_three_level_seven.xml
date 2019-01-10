@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    tools:context=".MainButtonThreeLevelThreeLevelSeven">
+
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_one"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_one"
+
+        />
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_two"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_two"
+
+        />
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_three"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_three"
+
+        />
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_four"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_four"
+
+        />
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_five"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_five"
+
+        />
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_six"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_six"
+
+        />
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_seven"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_seven"
+
+        />
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_eight"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_eight"
+
+        />
+    <Button
+        android:id="@+id/dhamsreni_union_kendro_nine"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/dhamsreni_kendro_nine"
+
+        />
+
+</LinearLayout>
+</ScrollView>

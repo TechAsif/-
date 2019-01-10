@@ -15,23 +15,11 @@
     android:orientation="vertical"
     tools:context=".AnaloMap">
 
-    <ImageView
+    <com.github.chrisbanes.photoview.PhotoView
         android:id="@+id/analog_map"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
-
-    <ZoomControls
-        android:id="@+id/zoom_control_buttom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        >
-
-
-
-    </ZoomControls>
 
 
 

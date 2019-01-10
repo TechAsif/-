@@ -39,13 +39,20 @@ public class MapsActivityDemo extends FragmentActivity implements OnMapReadyCall
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+        String lat=getIntent().getExtras().getString("Lat");
+        String lang=getIntent().getExtras().getString("Lang");
+        String title=getIntent().getExtras().getString("Title");
+
+
         // Add a marker in Sydney and move the camera
-        LatLng ulipurMs = new LatLng(25.660865, 89.619251);
-        mMap.addMarker(new MarkerOptions().position(ulipurMs).title("Ulipur Ms Schools And College")).showInfoWindow();
+        LatLng ulipurMs = new LatLng(Double.parseDouble(lat), Double.parseDouble(lang));
+        mMap.addMarker(new MarkerOptions().position(ulipurMs).title(title)).showInfoWindow();
        // mMap.moveCamera(CameraUpdateFactory.newLatLng(ulipurMs));
-        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(new LatLng(25.660717,89.619665) , 14.0f) );
+        mMap.moveCamera( CameraUpdateFactory.newLatLngZoom(new LatLng(Double.parseDouble(lat),Double.parseDouble(lang)) , 11.0f) );
 
         mMap.getUiSettings().setZoomControlsEnabled(true);
+
+//        25.660717,89.619665
 
 
 

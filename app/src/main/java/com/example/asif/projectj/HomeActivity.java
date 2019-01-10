@@ -5,6 +5,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -33,7 +36,7 @@ public class HomeActivity extends AppCompatActivity {
 
         ImageView background = findViewById(R.id.logo_png);
         Glide.with(HomeActivity.this)
-                .load(R.drawable.bangladesh_sarker)
+                .load(R.mipmap.finalapplogo)
                 .into(background);
 
 
@@ -65,12 +68,35 @@ public class HomeActivity extends AppCompatActivity {
                     startActivity(intent);
 
                 }else{
-                    info.setText("");
+                    info.setText("Wrong");
                 }
             }
         });
 
 
+    }
+
+
+    ///set menu with java file
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.about:
+                Intent intent=new Intent(HomeActivity.this,AboutActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 

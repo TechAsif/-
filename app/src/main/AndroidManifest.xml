@@ -7,9 +7,10 @@
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functionality. 
     -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -18,21 +19,37 @@
         android:roundIcon="@mipmap/bangladesh_sarker"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity">
+        <activity
+            android:name=".HomeActivity"
+            android:label="      ২৭ কুড়িগ্রাম-৩ ">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainButtonOneActivity" />
-        <activity android:name=".MainButtonTwoActivity" />
-        <activity android:name=".MainButtonThreeActivity" />
-        <activity android:name=".MainButtonFourActivity" />
-        <activity android:name=".MainButtonFiveActivity" />
-        <activity android:name=".MainButttonSixActivity" />
+        <activity
+            android:name=".MainButtonOneActivity"
+            android:label="ম্যাপ,কেন্দ্র্য ও যোগাযগ" />
+        <activity
+            android:name=".MainButtonTwoActivity"
+            android:label="প্রার্থী,স্থানিয় জনপ্রতিনিধি" />
+        <activity
+            android:name=".MainButtonThreeActivity"
+            android:label="অফিসার" />
+        <activity
+            android:name=".MainButtonFourActivity"
+            android:label="আইন শৃঙ্খলা বাহিনি" />
+        <activity
+            android:name=".MainButtonFiveActivity"
+            android:label="ম্যাজিস্ট্রেট" />
+        <activity
+            android:name=".MainButttonSixActivity"
+            android:label="গুগল ম্যাপ এ কেন্দ্র" />
         <activity android:name=".MainButtonOneLevelActivity" />
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="২৭ কুড়িগ্রাম-৩" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -48,45 +65,291 @@
         <activity
             android:name=".MapsActivityDemo"
             android:label="@string/title_activity_maps_demo" />
-        <activity android:name=".MainButtonSevenActivity" />
+        <activity
+            android:name=".MainButtonSevenActivity"
+            android:label="      অন্যান্য" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainButtonSixLevelOneActivity" />
-        <activity android:name=".MainButtonSixLevelTwoActivity" />
-        <activity android:name=".MainButtonSixLevelThreeActivity" />
-        <activity android:name=".MainButtonSixLevelFourActivity" />
-        <activity android:name=".MainButtonSixLevelFiveActivity" />
-        <activity android:name=".MainButtonSixLevelSixActivity" />
-        <activity android:name=".MainButtonSixLevelSevenActivity" />
-        <activity android:name=".MainButtonSixLevelEightActivity" />
-        <activity android:name=".MainButtonSixLevelNineActivity" />
-        <activity android:name=".MainButtonSixLevelTenActivity" />
-        <activity android:name=".MainButtonSixLevelElevenActivity" />
-        <activity android:name=".MainButtonSixLevelTwoelveActivity" />
-        <activity android:name=".MainButtonSixLevelTherteenActivity" />
-        <activity android:name=".MainButtonSixLevelFourTeenActivity" />
+        <activity
+            android:name=".MainButtonSixLevelTwoActivity"
+            android:label="উলিপুর পোরসভা" />
+        <activity
+            android:name=".MainButtonSixLevelThreeActivity"
+            android:label="গুনাইগাছ ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelFourActivity"
+            android:label="তবকপুর ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelFiveActivity"
+            android:label="থেতরাই ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelSixActivity"
+            android:label="দুর্গাপুর ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelSevenActivity"
+            android:label="দলদলিয়া ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelEightActivity"
+            android:label="ধামশ্রেণী ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelNineActivity"
+            android:label="ধরণীবাড়ী ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelTenActivity"
+            android:label="পান্ডুল ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelElevenActivity"
+            android:label="বেগমগঞ্জ ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelTwoelveActivity"
+            android:label="বুড়াবুড়ি ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelTherteenActivity"
+            android:label="বজরা ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonSixLevelFourTeenActivity"
+            android:label="হাতিয়া ইউনিয়ন" />
         <activity android:name=".Fifteen" />
-        <activity android:name=".MainButtonSixLevelFifTeenActivity" />
-        <activity android:name=".MainButtonOneLevelOneActivity" />
-        <activity android:name=".MainButtonOneLevelTwoActivity" />
-        <activity android:name=".AnaloMap" />
-        <activity android:name=".UlipurUpozelaMapActivity" />
-        <activity android:name=".GunaigasUnionMapActivity" />
-        <activity android:name=".TobokpurUnionMapActivity" />
-        <activity android:name=".TethraiUnionMapActivity" />
-        <activity android:name=".DurgapurUnionMapActivity" />
-        <activity android:name=".DoldoliaUnionMapActivity" />
-        <activity android:name=".DhamsreniUnionMapActivity" />
-        <activity android:name=".DharnibariUnionMapActivity" />
-        <activity android:name=".PandulUnionMapActivity" />
-        <activity android:name=".BegomgonjUnionMapActivity" />
-        <activity android:name=".BuraburiUnionMapActivity" />
-        <activity android:name=".BojraUnionMapActivity" />
-        <activity android:name=".HataUnionMapActivity" />
-        <activity android:name=".SaheberAlgaUnionMapActivity" />
-        <activity android:name=".UlipurUpojelaUnionMapActivity" />
-        <activity android:name=".MainButtonSevenLevelSix" />
-        <activity android:name=".UpojelaVumiOfficeStafList" />
-        <activity android:name=".MainButtonSevenLevelSixLevelTwo"></activity>
+        <activity
+            android:name=".MainButtonSixLevelFifTeenActivity"
+            android:label="সাহেবের আলগা ইউনিয়ন" />
+        <activity
+            android:name=".MainButtonOneLevelOneActivity"
+            android:label="ইউনিয়ন নাম" />
+        <activity
+            android:name=".MainButtonOneLevelTwoActivity"
+            android:label="সার্বিক তথ্য" />
+        <activity
+            android:name=".AnaloMap"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".UlipurUpozelaMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".GunaigasUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".TobokpurUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".TethraiUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".DurgapurUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".DoldoliaUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".DhamsreniUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".DharnibariUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".PandulUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".BegomgonjUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".BuraburiUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".BojraUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".HataUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".SaheberAlgaUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".UlipurUpojelaUnionMapActivity"
+            android:label="ম্যাপ" />
+        <activity
+            android:name=".MainButtonSevenLevelSix"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".UpojelaVumiOfficeStafList"
+            android:label="ভুপি অফিসের স্টাফ" />
+        <activity
+            android:name=".MainButtonSevenLevelSixLevelTwo"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".UlipurPowrosovaVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".DharnibariUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".DhamsreniUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".GuniagasUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".TobokpurUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".DoldoliaUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".BojraUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".TethraiUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".PandulUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".DurgapurUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".BegomgonjUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".BuraburiUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".HatiaUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".SaheberAlgaUnionVumiOfficeStaf"
+            android:label="ভূমি অফিসের স্টাফ" />
+        <activity
+            android:name=".PrarthiList"
+            android:label="প্রার্থী" />
+        <activity
+            android:name=".EsthanioJonoProtinidhiList"
+            android:label="স্থানিয় জনপ্রতিনিধি" />
+        <activity
+            android:name=".UpiSocibList"
+            android:label="ইউপি সচিব" />
+        <activity
+            android:name=".ExicutiveMegistredList"
+            android:label="এক্সিকিউটিভ  ম্যাজিস্ট্রেট" />
+        <activity
+            android:name=".JudisialMegistredList"
+            android:label="জুডিশিয়াল ম্যাজিস্ট্রেট" />
+        <activity
+            android:name=".UlipurThanaList"
+            android:label="থানা" />
+        <activity
+            android:name=".UlipurPolliBidduthList"
+            android:label="পল্লি বিদ্যুৎ " />
+        <activity
+            android:name=".UlipurFireServices"
+            android:label="ফায়ার সার্ভিস " />
+        <activity
+            android:name=".MainButtonThreeLevelThree"
+            android:label="ইউনিউয়ন নাম" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelOne"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelTwo"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelThree"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelFour"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelFive"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelSix"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelSeven"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelEight"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelNine"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelTen"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelEleven"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelTwoelve"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelTherteen"
+            android:label="কেন্দ্র" />
+        <activity
+            android:name=".MainButtonThreeLevelThreeLevelFourteen"
+            android:label="কেন্দ্র" />
+        <activity android:name=".MainButtonSevenLevelEight" />
+        <activity
+            android:name=".AbasonSongkerantoList"
+            android:label="আবাসন সংক্রান্ত" />
+        <activity
+            android:name=".HospitalList"
+            android:label="হসপিটাল" />
+        <activity
+            android:name=".ReterningOfficierList"
+            android:label="রিটার্নিং অফিসার" />
+        <activity
+            android:name=".NIrbaconOfficierList"
+            android:label="নির্বাচন অফিসার" />
+        <activity
+            android:name=".SenabahiniList"
+            android:label="সেনাবাহিনী" />
+        <activity
+            android:name=".RabList"
+            android:label="র‍্যাব" />
+        <activity
+            android:name=".BgbList"
+            android:label="বিজিবি " />
+        <activity
+            android:name=".PullishList"
+            android:label="পুলিশ" />
+        <activity
+            android:name=".AnsarBdbList"
+            android:label="আনসার ভিডিপি" />
+        <activity
+            android:name=".PijaidingOfficierList"
+            android:label="প্রিজাইডিং অফিসারের নাম,নম্বর" />
+        <activity
+            android:name=".NirbachonAcoronBidhimala"
+            android:label="@string/mainButtonOnearAgeNotun" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="প্রযুক্তিগত সহযোগিতায়" />
+        <activity
+            android:name=".NirbachonTodontoCommityList"
+            android:label="নির্বাচন তদন্ত কমিটি" />
+        <activity
+            android:name=".NodiParaParGhatButton"
+            android:label="নদী পারাপার ঘাট" />
+        <activity
+            android:name=".RedCrecentList"
+            android:label="রেড ক্রিসেন্ট" />
+        <activity
+            android:name=".SashtoPoribarPorikolponaMontronaloyList"
+            android:label="স্বাস্থ্য ও পরিবার পরিকল্পনা" />
+        <activity
+            android:name=".ControlRoomList"
+            android:label="কন্ট্রোল রুম" />
+        <activity
+            android:name=".MainButtonEight"
+            android:label="ইনোভেশন টিম" />
+        <activity
+            android:name=".MotamotPoramorsheList"
+            android:label="মতামত/পরামর্শে" />
+        <activity
+            android:name=".SohojogitaiList"
+            android:label="সার্বিক সহযোগিতায়" />
+        <activity android:name=".PijaidingOfficierPdf"
+            android:label="প্রিজাইডিং অফিসার"></activity>
     </application>
 
 </manifest>

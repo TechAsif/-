@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Project j</string>
+    <string name="app_name">২৭ কুড়িগ্রাম-৩</string>
     <string name="mainButtonOnearAgeNotun">নির্বাচন আচরণ বিধিমালা</string>
     <string name="mainButtonOne">একনজরে নির্বাচন ম্যাপ,কেন্দ্র ও যোগাযোগ</string>
-    <string name="mainButtonTwo">প্রাথী,স্থানীয় জনপ্রতিনিধি</string>
+    <string name="mainButtonTwo">প্রার্থী,স্থানীয় জনপ্রতিনিধি</string>
     <string name="mainButtonThree">রিটার্নিং,নির্বাচন ও প্রিজাইডিং অফিসার</string>
     <string name="mainButtonFour">আইন-শৃঙ্খলা বাহিনী</string>
     <string name="mainButtonFive">ম্যাজিস্ট্রেট</string>
@@ -116,7 +116,7 @@
     <!--দূগাপুর ইউনিয়ন কেন্দ্রের নাম-->
 
     <string name="durgapur_kendro_one">অজুনডারা সরকারি প্রাথমিক বিদ্যালয়</string>
-    <string name="durgapur_kendro_two">গোড়াই পাচপীর বহুমুখী ্উচ্চ বিদ্যালয়</string>
+    <string name="durgapur_kendro_two">গোড়াই পাচপীর বহুমুখী উচ্চ বিদ্যালয়</string>
     <string name="durgapur_kendro_three">পাঁচপীর ডিগ্রী কলেজ</string>
     <string name="durgapur_kendro_four">গোড়াই সরকারি প্রাথমিক বিদ্যালয়</string>
     <string name="durgapur_kendro_five">ডালিম পঞ্চনন পলাশ তলা সরকারি প্রাথমিক বিদ্যালয়</string>
@@ -135,7 +135,7 @@
     <string name="doldolia_kendro_one">ঠুটাপাইকর হাইস্কুল</string>
     <string name="doldolia_kendro_two">কপূরা কারিমিয়া ফাজিল মাদ্রাসা</string>
     <string name="doldolia_kendro_three">কদমতলা হ্ইাস্কুল</string>
-    <string name="doldolia_kendro_four">কাজিপাড়া আনছ্ার ও ভিডিপি ক্লাব</string>
+    <string name="doldolia_kendro_four">কাজিপাড়া আনছ্র ও ভিডিপি ক্লাব</string>
     <string name="doldolia_kendro_five">উত্তর দলদলিয়া সরকারি প্রাথমিক বিদ্যালয়</string>
     <string name="doldolia_kendro_six">দলদলিয়া আর্দশ হাইস্কুল</string>
     <string name="doldolia_kendro_seven">পাতিলাপুর সরকারি প্রাথমিক বিদ্যালয়</string>

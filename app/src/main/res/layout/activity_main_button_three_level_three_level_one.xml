@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainButtonThreeLevelThreeLevelOne">
+
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_one_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_one"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_two_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_two"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_three_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_three"
+
+        />
+
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_four_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_four"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_five_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_five"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_six_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_six"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_seven_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_seven"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_eight_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_eight"
+
+        />
+
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_nine_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_nine"
+
+        />
+
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_ten_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_ten"
+
+        />
+
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_eleven_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_eleven"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_twoelve_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_twoelve"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_therteen_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_therteen"
+
+        />
+    <Button
+        android:id="@+id/ulipur_powrosova_kendro_fourteen_for_pijaiding"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/ulipur_kendro_fourteen"
+
+        />
+
+</LinearLayout>
+</ScrollView>

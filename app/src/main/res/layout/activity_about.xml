@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"
+        android:text="Technical Support:"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"
+            android:layout_weight=".5"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:text="RC IT Team"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"
+
+        android:textSize="18sp"
+        android:text="Design and Support:"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"
+            android:layout_weight=".5"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:text="Md.Rejaul Islam Reja"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="01734003408"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/reja_call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="#fff"
+            android:src="@drawable/ic_call_black_24dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"
+        android:text="Coding and Development:"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"
+            android:layout_weight=".5"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:text="Md.Asif Parvez Sarker"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="01744861779"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/asif_call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:background="#fff"
+            android:src="@drawable/ic_call_black_24dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="6dp"
+        android:text="web:"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6sp"
+            android:layout_weight=".5"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:text="www.rcitbd.net"
+            android:textSize="15sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

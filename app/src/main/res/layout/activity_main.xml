@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
 
 
 
@@ -19,8 +26,7 @@
     <Button
         android:id="@+id/main_button_one_new"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="70dp"
 
         android:layout_marginTop="0dp"
         android:background="@drawable/button_bg"
@@ -33,10 +39,24 @@
         />
 
     <Button
+        android:id="@+id/nirbachon_todonto_comity"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:layout_marginTop="2dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="নির্বাচন তদন্ত কমিটি"
+
+        />
+
+    <Button
         android:id="@+id/main_button_one"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="70dp"
 
         android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
@@ -51,8 +71,7 @@
 
         android:id="@+id/main_button_two"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="70dp"
         android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
@@ -65,8 +84,7 @@
 
         android:id="@+id/main_button_three"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="70dp"
         android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
@@ -78,8 +96,7 @@
     <Button
         android:id="@+id/main_button_four"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="70dp"
         android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
@@ -90,8 +107,7 @@
     <Button
         android:id="@+id/main_button_five"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="70dp"
         android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
@@ -102,8 +118,7 @@
     <Button
         android:id="@+id/main_button_six"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="70dp"
         android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
@@ -115,8 +130,7 @@
     <Button
         android:id="@+id/main_button_seven"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="70dp"
         android:layout_marginTop="2dp"
         android:background="@drawable/button_bg"
         android:fontFamily="sans-serif-condensed"
@@ -124,7 +138,20 @@
         android:textColor="#fff"
         android:textSize="18sp"
         android:text="@string/mainButtonSeven"/>
+    <Button
+        android:id="@+id/inovision_team_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="ইনোভেশন টিম"/>
 
 
 </LinearLayout>
+
+</ScrollView>
 

@@ -33,9 +33,8 @@
 সেনাবাহিনী"
 
         />
+
     <Button
-
-
         android:id="@+id/rab_button"
         android:layout_width="match_parent"
         android:layout_height="70dp"
@@ -47,9 +46,10 @@
         android:padding="10dp"
         android:textColor="#fff"
         android:textSize="18sp"
-        android:text="র‌্যাব"
+        android:text="র‍্যাব"
 
         />
+
 
     <Button
         android:id="@+id/bgb_button"
@@ -97,7 +97,7 @@
         android:padding="10dp"
         android:textColor="#fff"
         android:textSize="18sp"
-        android:text="আনসার বি ডি বি"
+        android:text="আনসার ভিডিপি"
 
         />
 

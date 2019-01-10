@@ -16,6 +16,7 @@
     tools:context=".MainButttonSixActivity">
 
     <Button
+        android:id="@+id/upojela_head_quater"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -27,6 +28,22 @@
         android:textColor="#fff"
         android:textSize="18sp"
         android:text="@string/upozelaHeadQuater"
+
+        />
+
+    <Button
+        android:id="@+id/nodi_parapar_ghat"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="নদী পারাপার ঘাট"
 
         />
 

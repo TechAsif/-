@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/new_menu"-->
+        <!--android:title="New"-->
+        <!--android:icon="@drawable/ic_settings_applications_black_24dp"-->
+        <!--app:showAsAction="always"/>-->
+    <!--<item android:id="@+id/create"-->
+        <!--android:title="Create" />-->
+    <item android:id="@+id/about"
+        android:title="প্রযুক্তিগত সহযোগিতায়"
+        app:showAsAction="never"/>
+    <!--<item android:id="@+id/delete"-->
+        <!--android:title="delete" />-->
+
+</menu>

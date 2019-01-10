@@ -3,10 +3,16 @@ package com.example.asif.projectj;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
 public class MainButttonSixActivity extends AppCompatActivity {
+
+
+    Button upojelaHeadQuater;
 
 
     //        google map union button declare
@@ -14,13 +20,16 @@ public class MainButttonSixActivity extends AppCompatActivity {
             ,tobokPurUnionButton,tethraiUnionButton,durgapurUnionButton,
             doldoliaUnionButton, dhamsreniUnionButton,dharnibariUnionButton,
             pandulUnionButton,begumgonjUnionButton,buraburiUnionButton,
-            bojraUnionButton,hatiaUnionButton,saheberalgaUnionButton;
+            bojraUnionButton,hatiaUnionButton,saheberalgaUnionButton,ghatButton;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_buttton_six);
+
+        upojelaHeadQuater=findViewById(R.id.upojela_head_quater);
+        ghatButton=findViewById(R.id.nodi_parapar_ghat);
 
 
 //        google map union button initialize
@@ -38,6 +47,30 @@ public class MainButttonSixActivity extends AppCompatActivity {
         bojraUnionButton=findViewById(R.id.bojra_union_button_id);
         hatiaUnionButton=findViewById(R.id.hatia_union_button_id);
         saheberalgaUnionButton=findViewById(R.id.saheberalga_union_button_id);
+
+
+
+        upojelaHeadQuater.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainButttonSixActivity.this,MapsActivityDemo.class);
+                intent.putExtra("Lat","25.660655");
+                intent.putExtra("Lang","89.619350");
+                String title = "উপজেলা হেড কোয়াটার";
+                intent.putExtra("Title",title);
+                startActivity(intent);
+
+            }
+        });
+
+        ghatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainButttonSixActivity.this,NodiParaParGhatButton.class);
+                startActivity(intent);
+
+            }
+        });
 
 
 
@@ -145,5 +178,28 @@ public class MainButttonSixActivity extends AppCompatActivity {
         });
 
 
+    }
+
+
+    ///set menu with java file
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.about:
+                Intent intent=new Intent(MainButttonSixActivity.this,AboutActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

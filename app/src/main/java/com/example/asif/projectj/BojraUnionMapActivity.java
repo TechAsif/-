@@ -1,7 +1,11 @@
 package com.example.asif.projectj;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ZoomControls;
@@ -19,7 +23,7 @@ public class BojraUnionMapActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bojra_union_map);
 
-        zoomControls=findViewById(R.id.zoom_control_buttom);
+
         analogMapImage=findViewById(R.id.analog_map);
 
         analogMapImage = findViewById(R.id.analog_map);
@@ -30,33 +34,29 @@ public class BojraUnionMapActivity extends AppCompatActivity {
 
 
 
-        zoomControls.setOnZoomInClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                zoomCheck++;
+    }
 
-                float x= analogMapImage.getScaleX();
-                float y=analogMapImage.getScaleY();
-                analogMapImage.setScaleX(x+1);
-                analogMapImage.setScaleY(y+1);
 
-            }
-        });
+    ///set menu with java file
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
 
-        zoomControls.setOnZoomOutClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                if(zoomCheck!=0){
-                    float x= analogMapImage.getScaleX();
-                    float y=analogMapImage.getScaleY();
-                    analogMapImage.setScaleX(x-1);
-                    analogMapImage.setScaleY(y-1);
-                    zoomCheck--;
-                }
-
-            }
-        });
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.about:
+                Intent intent=new Intent(BojraUnionMapActivity.this,AboutActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

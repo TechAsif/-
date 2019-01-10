@@ -19,6 +19,7 @@
 
 
     <Button
+        android:id="@+id/gunaigas_union_kendro_one"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -33,6 +34,7 @@
 
         />
     <Button
+        android:id="@+id/gunaigas_union_kendro_two"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -47,6 +49,7 @@
 
         />
     <Button
+        android:id="@+id/gunaigas_union_kendro_three"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -61,6 +64,7 @@
 
         />
     <Button
+        android:id="@+id/gunaigas_union_kendro_four"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -75,6 +79,7 @@
 
         />
     <Button
+        android:id="@+id/gunaigas_union_kendro_five"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -89,6 +94,7 @@
 
         />
     <Button
+        android:id="@+id/gunaigas_union_kendro_six"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -103,6 +109,7 @@
 
         />
     <Button
+        android:id="@+id/gunaigas_union_kendro_seven"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -117,6 +124,7 @@
 
         />
     <Button
+        android:id="@+id/gunaigas_union_kendro_eight"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
@@ -131,6 +139,7 @@
 
         />
     <Button
+        android:id="@+id/gunaigas_union_kendro_nine"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_gravity="center_vertical"
